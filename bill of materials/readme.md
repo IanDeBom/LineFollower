@@ -7,12 +7,12 @@
 |         2|HC-05|Bluetooth-module (Bluetooth 2.0 SPP, UART-communicatie, standaard 9600 baud)|nieuw|€ 2,92|1|€ 2,92|
 |         3|DRV8833|Dual H-brug motordriver (2 kanalen, 2,7–10,8 V, 1,2 A continu / 2 A piek per kanaal)|nieuw|€ 1,80|1|€ 1,80|
 |         4|N20 micro gearmotor 30:1|DC-motor met metalen tandwielkast, nominaal 6 V, ± 1000 rpm onbelast bij 6 V (zie berekening)|nieuw|€ 2,01|2|€ 4,02|
-|         5|QTR-8A|Reflectiesensor-array met 8 QRE1113 IR-sensoren, analoge uitgangen, 5 V|nieuw|€ 14,24|1|€ 14,24|
+|         5|QTR-8A|Reflectiesensor-array met 8 QRE1113 IR-sensoren, analoge uitgangen, 5 V|nieuw|€ 12,59|1|€ 12,59|
 |         6|Silicone wielen (5908)|Wielen met siliconen band, voor TT-motor / SG90 servo|nieuw|€ 2,75|2|€ 5,50|
 |         7|Li-Ion batterij 2S|Oplaadbare batterij 7,4 V, 2000 mAh, 2S, 15C (max. 30 A), JST-stekker, incl. USB-oplaadkabel|nieuw|€ 14,90|1|€ 14,90|
 |         8|Step-down buck converter (OT253-B47)|DC-DC converter 4,5–24 V in naar 5 V uit, max. 3 A, uitgang instelbaar (4R7 spoel); voeding 5 V logica vanuit de batterij|nieuw|€ 2,35|1|€ 2,35|
 |         9|[Wipschakelaar klein](https://www.tinytronics.nl/nl/schakelaars/manuele-schakelaars/wipschakelaars/standaard-inbouw-wipschakelaar-klein)|Inbouw wipschakelaar aan/uit (SPST, 2 pinnen), 250 VAC / 3 A, inbouwmaat 8,5 × 13,5 mm; hoofdschakelaar batterij|nieuw|€ 0,45|1|€ 0,45|
-|          |      |            |           |**totaal**|      |**€ 49,92**|
+|          |      |            |           |**totaal**|      |**€ 48,27**|
 
 <br />
 
