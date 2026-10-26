@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 990" width="1400" height="990" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#000">
+  <rect width="1400" height="990" fill="#ffffff"/>
+
+  <!-- ===================== kader + vakindeling ===================== -->
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="1380" height="970" stroke-width="2"/>
+    <rect x="40" y="40" width="1320" height="910" stroke-width="2"/>
+  </g>
+  <g stroke="#000" stroke-width="1">
+    <!-- kolommen 1..8 (165 px) -->
+    <line x1="205" y1="10" x2="205" y2="40"/><line x1="370" y1="10" x2="370" y2="40"/>
+    <line x1="535" y1="10" x2="535" y2="40"/><line x1="700" y1="10" x2="700" y2="40"/>
+    <line x1="865" y1="10" x2="865" y2="40"/><line x1="1030" y1="10" x2="1030" y2="40"/>
+    <line x1="1195" y1="10" x2="1195" y2="40"/>
+    <line x1="205" y1="950" x2="205" y2="980"/><line x1="370" y1="950" x2="370" y2="980"/>
+    <line x1="535" y1="950" x2="535" y2="980"/><line x1="700" y1="950" x2="700" y2="980"/>
+    <line x1="865" y1="950" x2="865" y2="980"/><line x1="1030" y1="950" x2="1030" y2="980"/>
+    <line x1="1195" y1="950" x2="1195" y2="980"/>
+    <!-- rijen A..F (151,67 px) -->
+    <line x1="10" y1="191.7" x2="40" y2="191.7"/><line x1="10" y1="343.3" x2="40" y2="343.3"/>
+    <line x1="10" y1="495" x2="40" y2="495"/><line x1="10" y1="646.7" x2="40" y2="646.7"/>
+    <line x1="10" y1="798.3" x2="40" y2="798.3"/>
+    <line x1="1360" y1="191.7" x2="1390" y2="191.7"/><line x1="1360" y1="343.3" x2="1390" y2="343.3"/>
+    <line x1="1360" y1="495" x2="1390" y2="495"/><line x1="1360" y1="646.7" x2="1390" y2="646.7"/>
+    <line x1="1360" y1="798.3" x2="1390" y2="798.3"/>
+  </g>
+  <g font-size="13" text-anchor="middle">
+    <text x="122" y="30">1</text><text x="287" y="30">2</text><text x="452" y="30">3</text><text x="617" y="30">4</text>
+    <text x="782" y="30">5</text><text x="947" y="30">6</text><text x="1112" y="30">7</text><text x="1277" y="30">8</text>
+    <text x="122" y="970">1</text><text x="287" y="970">2</text><text x="452" y="970">3</text><text x="617" y="970">4</text>
+    <text x="782" y="970">5</text><text x="947" y="970">6</text><text x="1112" y="970">7</text><text x="1277" y="970">8</text>
+    <text x="25" y="121">A</text><text x="25" y="272">B</text><text x="25" y="424">C</text>
+    <text x="25" y="576">D</text><text x="25" y="727">E</text><text x="25" y="879">F</text>
+    <text x="1375" y="121">A</text><text x="1375" y="272">B</text><text x="1375" y="424">C</text>
+    <text x="1375" y="576">D</text><text x="1375" y="727">E</text><text x="1375" y="879">F</text>
+  </g>
+
+  <!-- ===================== potentiaalrails ===================== -->
+  <g stroke="#000" stroke-width="2">
+    <line x1="120" y1="130" x2="1260" y2="130"/>
+    <line x1="120" y1="740" x2="1260" y2="740"/>
+  </g>
+  <g font-weight="bold">
+    <text x="70" y="135">+5V</text><text x="68" y="745">GND</text>
+    <text x="1268" y="135">+5V</text><text x="1268" y="745">GND</text>
+  </g>
+
+  <!-- ===================== -U1 Arduino Nano ===================== -->
+  <rect x="150" y="230" width="200" height="420" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="230" y="420" text-anchor="middle" font-weight="bold" font-size="16">-U1</text>
+  <text x="230" y="440" text-anchor="middle">Arduino Nano</text>
+  <g stroke="#000" stroke-width="2">
+    <line x1="250" y1="130" x2="250" y2="230"/>
+    <line x1="250" y1="650" x2="250" y2="740"/>
+    <line x1="350" y1="290" x2="600" y2="290"/>
+    <line x1="350" y1="340" x2="600" y2="340"/>
+    <line x1="350" y1="390" x2="600" y2="390"/>
+    <line x1="350" y1="440" x2="600" y2="440"/>
+    <line x1="350" y1="510" x2="600" y2="510"/>
+    <line x1="70" y1="300" x2="150" y2="300"/>
+  </g>
+  <g font-size="13">
+    <text x="258" y="250">5V</text>
+    <text x="258" y="640">GND</text>
+    <text x="158" y="305">USB</text>
+    <text x="342" y="295" text-anchor="end">D5 ~</text>
+    <text x="342" y="345" text-anchor="end">D6 ~</text>
+    <text x="342" y="395" text-anchor="end">D9 ~</text>
+    <text x="342" y="445" text-anchor="end">D10 ~</text>
+    <text x="342" y="515" text-anchor="end">D8</text>
+  </g>
+  <g font-size="11" fill="#555">
+    <text x="236" y="222" text-anchor="end">27</text>
+    <text x="236" y="666" text-anchor="end">29</text>
+    <text x="358" y="284">8</text><text x="358" y="334">9</text>
+    <text x="358" y="384">12</text><text x="358" y="434">13</text>
+  </g>
+  <text x="56" y="285" font-size="12">PC (USB)</text>
+  <text x="56" y="322" font-size="12">voeding +</text>
+  <text x="56" y="337" font-size="12">debug</text>
+  <g font-size="12" fill="#555">
+    <text x="420" y="283">PWM motor A</text>
+    <text x="420" y="333">PWM motor A</text>
+    <text x="420" y="383">PWM motor B</text>
+    <text x="420" y="433">PWM motor B</text>
+    <text x="420" y="503">driver aan (standby)</text>
+  </g>
+
+  <!-- ===================== -U2 DRV8833 ===================== -->
+  <rect x="600" y="230" width="220" height="420" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="710" y="420" text-anchor="middle" font-weight="bold" font-size="16">-U2</text>
+  <text x="710" y="440" text-anchor="middle">DRV8833</text>
+  <g stroke="#000" stroke-width="2">
+    <line x1="710" y1="130" x2="710" y2="230"/>
+    <line x1="710" y1="650" x2="710" y2="740"/>
+  </g>
+  <g font-size="13">
+    <text x="608" y="295">AIN1</text>
+    <text x="608" y="345">AIN2</text>
+    <text x="608" y="395">BIN1</text>
+    <text x="608" y="445">BIN2</text>
+    <text x="608" y="515">STBY</text>
+    <text x="718" y="250">VM</text>
+    <text x="718" y="640">GND</text>
+  </g>
+  <circle cx="250" cy="130" r="5" fill="#000"/>
+  <circle cx="710" cy="130" r="5" fill="#000"/>
+  <circle cx="250" cy="740" r="5" fill="#000"/>
+  <circle cx="710" cy="740" r="5" fill="#000"/>
+
+  <!-- motor A gesimuleerd -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="820" y1="290" x2="880" y2="290"/>
+    <line x1="960" y1="290" x2="1180" y2="290"/>
+    <line x1="820" y1="390" x2="1180" y2="390"/>
+    <line x1="1060" y1="290" x2="1060" y2="323"/>
+    <line x1="1060" y1="357" x2="1060" y2="390"/>
+    <line x1="1180" y1="290" x2="1180" y2="323"/>
+    <line x1="1180" y1="357" x2="1180" y2="390"/>
+  </g>
+  <rect x="880" y="278" width="80" height="24" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="920" y="270" text-anchor="middle" font-weight="bold">-R1</text>
+  <text x="920" y="320" text-anchor="middle">560 Ω</text>
+    <polygon points="1042,323 1078,323 1060,355" fill="#fff" stroke="#000" stroke-width="2"/>
+    <line x1="1042" y1="357" x2="1078" y2="357" stroke="#000" stroke-width="2"/>
+    <polygon points="1162,357 1198,357 1180,325" fill="#fff" stroke="#000" stroke-width="2"/>
+    <line x1="1162" y1="323" x2="1198" y2="323" stroke="#000" stroke-width="2"/>
+  <circle cx="1060" cy="290" r="5" fill="#000"/>
+  <circle cx="1060" cy="390" r="5" fill="#000"/>
+  <text x="1036" y="338" text-anchor="end" font-weight="bold">-H1</text>
+  <text x="1036" y="354" text-anchor="end" font-size="12">vooruit</text>
+  <text x="1036" y="369" text-anchor="end" font-size="12">groen</text>
+  <text x="1204" y="338" font-weight="bold">-H2</text>
+  <text x="1204" y="354" font-size="12">achteruit</text>
+  <text x="1204" y="369" font-size="12">rood</text>
+  <rect x="980" y="250" width="340" height="160" fill="none" stroke="#777" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1314" y="404" text-anchor="end" font-size="12" fill="#555">≙ -M1 motor A</text>
+  <g font-size="13">
+    <text x="812" y="295" text-anchor="end">AO1</text>
+    <text x="812" y="395" text-anchor="end">AO2</text>
+  </g>
+  <!-- motor B gesimuleerd -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="820" y1="480" x2="880" y2="480"/>
+    <line x1="960" y1="480" x2="1180" y2="480"/>
+    <line x1="820" y1="580" x2="1180" y2="580"/>
+    <line x1="1060" y1="480" x2="1060" y2="513"/>
+    <line x1="1060" y1="547" x2="1060" y2="580"/>
+    <line x1="1180" y1="480" x2="1180" y2="513"/>
+    <line x1="1180" y1="547" x2="1180" y2="580"/>
+  </g>
+  <rect x="880" y="468" width="80" height="24" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="920" y="460" text-anchor="middle" font-weight="bold">-R2</text>
+  <text x="920" y="510" text-anchor="middle">560 Ω</text>
+    <polygon points="1042,513 1078,513 1060,545" fill="#fff" stroke="#000" stroke-width="2"/>
+    <line x1="1042" y1="547" x2="1078" y2="547" stroke="#000" stroke-width="2"/>
+    <polygon points="1162,547 1198,547 1180,515" fill="#fff" stroke="#000" stroke-width="2"/>
+    <line x1="1162" y1="513" x2="1198" y2="513" stroke="#000" stroke-width="2"/>
+  <circle cx="1060" cy="480" r="5" fill="#000"/>
+  <circle cx="1060" cy="580" r="5" fill="#000"/>
+  <text x="1036" y="528" text-anchor="end" font-weight="bold">-H3</text>
+  <text x="1036" y="544" text-anchor="end" font-size="12">vooruit</text>
+  <text x="1036" y="559" text-anchor="end" font-size="12">groen</text>
+  <text x="1204" y="528" font-weight="bold">-H4</text>
+  <text x="1204" y="544" font-size="12">achteruit</text>
+  <text x="1204" y="559" font-size="12">rood</text>
+  <rect x="980" y="440" width="340" height="160" fill="none" stroke="#777" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1314" y="594" text-anchor="end" font-size="12" fill="#555">≙ -M2 motor B</text>
+  <g font-size="13">
+    <text x="812" y="485" text-anchor="end">BO1</text>
+    <text x="812" y="585" text-anchor="end">BO2</text>
+  </g>
+
+  <!-- ===================== opmerkingen ===================== -->
+  <g font-size="13">
+    <text x="60" y="800" font-weight="bold">Opmerkingen</text>
+    <text x="60" y="822">1. -U1 via USB gevoed; VM van -U2 aan +5V (leds i.p.v. motoren). Bij de motoren: VM aan de batterij (7,4 V).</text>
+    <text x="60" y="842">2. -M1 / -M2 gesimuleerd met 2 antiparallelle leds: richting = welke led brandt, snelheid = helderheid.</text>
+    <text x="60" y="862">3. AIN1..BIN2 op PWM-pinnen (~): D5/D6 timer 0, D9/D10 timer 1.</text>
+    <text x="60" y="882">4. STBY (= nSLEEP van de DRV8833): hoog = driver aan, laag = alle uitgangen uit.</text>
+    <text x="60" y="902">5. Pinnamen volgens de gebruikte DRV8833-module; deze module heeft geen nFAULT-uitgang.</text>
+  </g>
+
+  <!-- ===================== titelblok ===================== -->
+  <g fill="none" stroke="#000" stroke-width="2">
+    <rect x="900" y="790" width="460" height="160"/>
+  </g>
+  <g stroke="#000" stroke-width="1">
+    <line x1="900" y1="830" x2="1360" y2="830"/>
+    <line x1="900" y1="870" x2="1360" y2="870"/>
+    <line x1="900" y1="910" x2="1360" y2="910"/>
+    <line x1="1130" y1="870" x2="1130" y2="950"/>
+    <line x1="1250" y1="910" x2="1250" y2="950"/>
+  </g>
+  <g font-size="10" fill="#555">
+    <text x="906" y="802">project</text>
+    <text x="906" y="842">tekening</text>
+    <text x="906" y="882">getekend</text>
+    <text x="1136" y="882">datum</text>
+    <text x="906" y="922">bestand</text>
+    <text x="1136" y="922">revisie</text>
+    <text x="1256" y="922">blad</text>
+  </g>
+  <g>
+    <text x="906" y="823" font-size="17" font-weight="bold">LineFollower</text>
+    <text x="906" y="863" font-size="15" font-weight="bold">PoC motorsturing (H-brug) – aansluitschema</text>
+    <text x="906" y="902" font-size="14">debomian</text>
+    <text x="1136" y="902" font-size="14">21-10-2026</text>
+    <text x="906" y="942" font-size="13">aansluitschema.svg</text>
+    <text x="1136" y="942" font-size="14">A</text>
+    <text x="1256" y="942" font-size="14">1 / 1</text>
+  </g>
+</svg>
