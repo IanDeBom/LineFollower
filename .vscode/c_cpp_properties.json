@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino Nano",
+            "includePath": [
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/hardware/avr/1.8.7/cores/arduino",
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/hardware/avr/1.8.7/variants/eightanaloginputs",
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/hardware/avr/1.8.7/variants/standard",
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/hardware/avr/1.8.7/libraries/**",
+                "${env:USERPROFILE}/Documents/Arduino/libraries/**",
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include",
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include"
+            ],
+            "forcedInclude": [
+                "${env:LOCALAPPDATA}/Arduino15/packages/arduino/hardware/avr/1.8.7/cores/arduino/Arduino.h"
+            ],
+            "defines": [
+                "ARDUINO=10607",
+                "ARDUINO_AVR_NANO",
+                "ARDUINO_ARCH_AVR",
+                "F_CPU=16000000L",
+                "__AVR_ATmega328P__",
+                "__AVR__"
+            ],
+            "compilerPath": "${env:LOCALAPPDATA}/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}
