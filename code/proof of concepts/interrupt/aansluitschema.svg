@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 990" width="1400" height="990" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#000">
+  <rect width="1400" height="990" fill="#ffffff"/>
+
+  <!-- ===================== kader + vakindeling ===================== -->
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="1380" height="970" stroke-width="2"/>
+    <rect x="40" y="40" width="1320" height="910" stroke-width="2"/>
+  </g>
+  <g stroke="#000" stroke-width="1">
+    <!-- kolommen 1..8 (165 px) -->
+    <line x1="205" y1="10" x2="205" y2="40"/><line x1="370" y1="10" x2="370" y2="40"/>
+    <line x1="535" y1="10" x2="535" y2="40"/><line x1="700" y1="10" x2="700" y2="40"/>
+    <line x1="865" y1="10" x2="865" y2="40"/><line x1="1030" y1="10" x2="1030" y2="40"/>
+    <line x1="1195" y1="10" x2="1195" y2="40"/>
+    <line x1="205" y1="950" x2="205" y2="980"/><line x1="370" y1="950" x2="370" y2="980"/>
+    <line x1="535" y1="950" x2="535" y2="980"/><line x1="700" y1="950" x2="700" y2="980"/>
+    <line x1="865" y1="950" x2="865" y2="980"/><line x1="1030" y1="950" x2="1030" y2="980"/>
+    <line x1="1195" y1="950" x2="1195" y2="980"/>
+    <!-- rijen A..F (151,67 px) -->
+    <line x1="10" y1="191.7" x2="40" y2="191.7"/><line x1="10" y1="343.3" x2="40" y2="343.3"/>
+    <line x1="10" y1="495" x2="40" y2="495"/><line x1="10" y1="646.7" x2="40" y2="646.7"/>
+    <line x1="10" y1="798.3" x2="40" y2="798.3"/>
+    <line x1="1360" y1="191.7" x2="1390" y2="191.7"/><line x1="1360" y1="343.3" x2="1390" y2="343.3"/>
+    <line x1="1360" y1="495" x2="1390" y2="495"/><line x1="1360" y1="646.7" x2="1390" y2="646.7"/>
+    <line x1="1360" y1="798.3" x2="1390" y2="798.3"/>
+  </g>
+  <g font-size="13" text-anchor="middle">
+    <text x="122" y="30">1</text><text x="287" y="30">2</text><text x="452" y="30">3</text><text x="617" y="30">4</text>
+    <text x="782" y="30">5</text><text x="947" y="30">6</text><text x="1112" y="30">7</text><text x="1277" y="30">8</text>
+    <text x="122" y="970">1</text><text x="287" y="970">2</text><text x="452" y="970">3</text><text x="617" y="970">4</text>
+    <text x="782" y="970">5</text><text x="947" y="970">6</text><text x="1112" y="970">7</text><text x="1277" y="970">8</text>
+    <text x="25" y="121">A</text><text x="25" y="272">B</text><text x="25" y="424">C</text>
+    <text x="25" y="576">D</text><text x="25" y="727">E</text><text x="25" y="879">F</text>
+    <text x="1375" y="121">A</text><text x="1375" y="272">B</text><text x="1375" y="424">C</text>
+    <text x="1375" y="576">D</text><text x="1375" y="727">E</text><text x="1375" y="879">F</text>
+  </g>
+
+  <!-- ===================== potentiaalrail ===================== -->
+  <line x1="120" y1="740" x2="1260" y2="740" stroke="#000" stroke-width="2"/>
+  <text x="68" y="745" font-weight="bold">GND</text>
+  <text x="1268" y="745" font-weight="bold">GND</text>
+
+  <!-- ===================== -U1 Arduino Nano ===================== -->
+  <rect x="200" y="260" width="220" height="380" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="290" y="440" text-anchor="middle" font-weight="bold" font-size="16">-U1</text>
+  <text x="290" y="460" text-anchor="middle">Arduino Nano</text>
+  <text x="280" y="380" text-anchor="middle" font-size="11" fill="#555">-H2 ingebouwde led op D13</text>
+  <text x="280" y="394" text-anchor="middle" font-size="11" fill="#555">(simuleert blokkerende taak)</text>
+  <g stroke="#000" stroke-width="2">
+    <line x1="310" y1="640" x2="310" y2="740"/>   <!-- GND -->
+    <line x1="420" y1="340" x2="620" y2="340"/>   <!-- D4 - R1 -->
+    <line x1="420" y1="560" x2="560" y2="560"/>   <!-- D2 - S1 -->
+    <line x1="120" y1="300" x2="200" y2="300"/>   <!-- USB -->
+  </g>
+  <g font-size="13">
+    <text x="318" y="630">GND</text>
+    <text x="412" y="345" text-anchor="end">D4</text>
+    <text x="412" y="582" text-anchor="end">D2 (INT0)</text>
+    <text x="208" y="305">USB</text>
+  </g>
+  <g font-size="11" fill="#555">
+    <text x="296" y="656" text-anchor="end">29</text>
+    <text x="428" y="334">7</text>
+    <text x="428" y="554">5</text>
+  </g>
+  <text x="60" y="280" font-size="12">PC (USB)</text>
+  <text x="60" y="325" font-size="12">voeding +</text>
+  <text x="60" y="340" font-size="12">upload / debug</text>
+
+  <!-- interne pull-up (in de microcontroller) -->
+  <g stroke="#777" stroke-width="1.5" stroke-dasharray="5 3" fill="none">
+    <polyline points="420,560 400,560 400,540"/>
+    <rect x="390" y="490" width="20" height="50"/>
+    <line x1="400" y1="490" x2="400" y2="470"/>
+  </g>
+  <text x="400" y="462" text-anchor="middle" font-size="11" fill="#777">VCC</text>
+  <text x="384" y="510" text-anchor="end" font-size="11" fill="#777">interne</text>
+  <text x="384" y="524" text-anchor="end" font-size="11" fill="#777">pull-up</text>
+
+  <!-- ===================== -S1 drukknop (maakcontact) ===================== -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="560" y1="560" x2="560" y2="610"/>
+    <line x1="560" y1="680" x2="560" y2="740"/>
+    <line x1="560" y1="680" x2="538" y2="616"/>        <!-- beweegbaar contact (open) -->
+    <line x1="552" y1="610" x2="568" y2="610"/>        <!-- vast contact -->
+  </g>
+  <g stroke="#000" stroke-width="1.5" fill="none">
+    <line x1="548" y1="648" x2="500" y2="648" stroke-dasharray="5 3"/>  <!-- bediening -->
+    <polyline points="508,636 500,636 500,660 508,660"/>                <!-- drukknop -->
+  </g>
+  <circle cx="560" cy="560" r="0"/>
+  <circle cx="560" cy="740" r="5" fill="#000"/>
+  <circle cx="310" cy="740" r="5" fill="#000"/>
+  <text x="580" y="640" font-weight="bold">-S1</text>
+  <text x="580" y="658">drukknop</text>
+  <text x="580" y="676" font-size="12">start / stop</text>
+
+  <!-- ===================== -R1 560 Ω + -H1 led ===================== -->
+  <rect x="620" y="328" width="80" height="24" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="660" y="318" text-anchor="middle" font-weight="bold">-R1</text>
+  <text x="660" y="376" text-anchor="middle">560 Ω</text>
+  <g stroke="#000" stroke-width="2" fill="none">
+    <polyline points="700,340 900,340 900,420"/>
+    <line x1="900" y1="460" x2="900" y2="740"/>
+    <polygon points="880,420 920,420 900,455" fill="#fff"/>
+    <line x1="880" y1="457" x2="920" y2="457"/>
+    <line x1="924" y1="428" x2="944" y2="414"/>
+    <line x1="928" y1="442" x2="948" y2="428"/>
+  </g>
+  <g fill="#000">
+    <polygon points="944,414 935,415 940,422"/>
+    <polygon points="948,428 939,429 944,436"/>
+  </g>
+  <circle cx="900" cy="740" r="5" fill="#000"/>
+  <text x="960" y="435" font-weight="bold">-H1</text>
+  <text x="960" y="453">led status</text>
+  <text x="960" y="471" font-size="12">aan = gestart, uit = gestopt</text>
+
+  <!-- signaalnamen -->
+  <g font-size="12" fill="#555">
+    <text x="760" y="332">LED</text>
+    <text x="450" y="552">BUTTON</text>
+  </g>
+
+  <!-- ===================== opmerkingen ===================== -->
+  <g font-size="13">
+    <text x="60" y="800" font-weight="bold">Opmerkingen</text>
+    <text x="60" y="822">1. -U1 wordt gevoed via USB van de pc.</text>
+    <text x="60" y="842">2. -S1 zonder externe weerstand: D2 gebruikt de interne pull-up (INPUT_PULLUP), ingedrukt = laag.</text>
+    <text x="60" y="862">3. D2 = externe interrupt INT0, ingesteld op FALLING (moment van indrukken).</text>
+    <text x="60" y="882">4. Dender van -S1 wordt in software onderdrukt (200 ms). Eventueel 100 nF parallel over -S1.</text>
+    <text x="60" y="902">5. Aansluitingen volgen het prototype-aansluitschema (technische tekeningen/elektronisch prototype).</text>
+  </g>
+
+  <!-- ===================== titelblok ===================== -->
+  <g fill="none" stroke="#000" stroke-width="2">
+    <rect x="900" y="790" width="460" height="160"/>
+  </g>
+  <g stroke="#000" stroke-width="1">
+    <line x1="900" y1="830" x2="1360" y2="830"/>
+    <line x1="900" y1="870" x2="1360" y2="870"/>
+    <line x1="900" y1="910" x2="1360" y2="910"/>
+    <line x1="1130" y1="870" x2="1130" y2="950"/>
+    <line x1="1250" y1="910" x2="1250" y2="950"/>
+  </g>
+  <g font-size="10" fill="#555">
+    <text x="906" y="802">project</text>
+    <text x="906" y="842">tekening</text>
+    <text x="906" y="882">getekend</text>
+    <text x="1136" y="882">datum</text>
+    <text x="906" y="922">bestand</text>
+    <text x="1136" y="922">revisie</text>
+    <text x="1256" y="922">blad</text>
+  </g>
+  <g>
+    <text x="906" y="823" font-size="17" font-weight="bold">LineFollower</text>
+    <text x="906" y="863" font-size="15" font-weight="bold">PoC start/stop interrupt – aansluitschema</text>
+    <text x="906" y="902" font-size="14">debomian</text>
+    <text x="1136" y="902" font-size="14">21-10-2026</text>
+    <text x="906" y="942" font-size="13">aansluitschema.svg</text>
+    <text x="1136" y="942" font-size="14">A</text>
+    <text x="1256" y="942" font-size="14">1 / 1</text>
+  </g>
+</svg>
