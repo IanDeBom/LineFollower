@@ -4,8 +4,8 @@
 |volgnummer|naam|omschrijving|nieuw/recup|kostprijs/stuk|aantal|subtotaal|
 |----------|----|------------|-----------|--------------|------|---------|
 |         1|Arduino Nano|Microcontroller (ATmega328P, 16 MHz, 5 V logica, 14 digitale I/O waarvan 6 PWM, 8 analoge ingangen)|nieuw|€ 3,74|1|€ 3,74|
-|         2|HC-05|Bluetooth-module (Bluetooth 2.0 SPP, UART-communicatie, standaard 9600 baud)|nieuw|€ 2,92|1|€ 2,92|
-|         3|DRV8833|Dual H-brug motordriver (2 kanalen, 2,7–10,8 V, 1,2 A continu / 2 A piek per kanaal)|nieuw|€ 1,80|1|€ 1,80|
+|         2|BT05|Bluetooth Low Energy module (BLE 4.0, CC2541, HM-10 compatibel, UART 9600 baud, 3,3 V logica)|nieuw|€ 2,92|1|€ 2,92|
+|         3|DRV8833|Dual H-brug motordriver module (2 kanalen, 2,7–10,8 V, 1,2 A continu / 2 A piek per kanaal, STBY-pin, geen nFAULT)|nieuw|€ 1,80|1|€ 1,80|
 |         4|N20 micro gearmotor 30:1|DC-motor met metalen tandwielkast, nominaal 6 V, ± 1000 rpm onbelast bij 6 V (zie berekening)|nieuw|€ 2,01|2|€ 4,02|
 |         5|QTR-8A|Reflectiesensor-array met 8 QRE1113 IR-sensoren, analoge uitgangen, 5 V|nieuw|€ 12,59|1|€ 12,59|
 |         6|Silicone wielen (5908)|Wielen met siliconen band, voor TT-motor / SG90 servo|nieuw|€ 2,75|2|€ 5,50|
