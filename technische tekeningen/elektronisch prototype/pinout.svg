@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="Arial, Helvetica, sans-serif" font-size="13">
+  <!-- achtergrond (ook leesbaar in dark mode) -->
+  <rect width="1200" height="800" fill="#ffffff"/>
+
+  <text x="600" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">LineFollower – prototype aansluitschema Arduino Nano</text>
+
+  <!-- ===================== draden ===================== -->
+  <g stroke-width="3" fill="none">
+    <!-- QTR-8A -> A0..A7 -->
+    <g stroke="#2a9d8f">
+      <line x1="260" y1="254" x2="500" y2="254"/>
+      <line x1="260" y1="292" x2="500" y2="292"/>
+      <line x1="260" y1="330" x2="500" y2="330"/>
+      <line x1="260" y1="368" x2="500" y2="368"/>
+      <line x1="260" y1="406" x2="500" y2="406"/>
+      <line x1="260" y1="444" x2="500" y2="444"/>
+      <line x1="260" y1="482" x2="500" y2="482"/>
+      <line x1="260" y1="520" x2="500" y2="520"/>
+    </g>
+    <!-- voeding -->
+    <line x1="260" y1="558" x2="500" y2="558" stroke="#d62828"/>
+    <line x1="260" y1="634" x2="500" y2="634" stroke="#333333"/>
+    <!-- BT05 -->
+    <g stroke="#3a86ff">
+      <line x1="700" y1="140" x2="940" y2="140"/>
+      <line x1="700" y1="178" x2="940" y2="178"/>
+    </g>
+    <!-- DRV8833 -->
+    <g stroke="#e76f51">
+      <line x1="700" y1="216" x2="940" y2="216"/>
+      <line x1="700" y1="254" x2="940" y2="254"/>
+      <line x1="700" y1="292" x2="940" y2="292"/>
+      <line x1="700" y1="368" x2="940" y2="368"/>
+      <line x1="700" y1="406" x2="940" y2="406"/>
+    </g>
+    <!-- drukknop -->
+    <line x1="700" y1="520" x2="940" y2="520" stroke="#8338ec"/>
+  </g>
+
+  <!-- spanningsdeler op de TX-lijn -->
+  <rect x="770" y="129" width="110" height="22" rx="4" fill="#ffffff" stroke="#3a86ff" stroke-width="2"/>
+  <text x="825" y="145" text-anchor="middle" font-size="12" fill="#3a86ff">deler 1k / 2k</text>
+
+  <!-- ===================== Arduino Nano ===================== -->
+  <rect x="565" y="58" width="70" height="36" rx="4" fill="#b8b8b8" stroke="#888"/>
+  <text x="600" y="81" text-anchor="middle" font-size="11" fill="#333">USB</text>
+  <rect x="480" y="80" width="240" height="650" rx="12" fill="#1f5f99"/>
+  <rect x="560" y="345" width="80" height="80" rx="4" fill="#1a1a1a"/>
+  <text x="600" y="380" text-anchor="middle" font-size="11" fill="#ddd">ATmega</text>
+  <text x="600" y="396" text-anchor="middle" font-size="11" fill="#ddd">328P</text>
+  <text x="600" y="716" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">Arduino Nano</text>
+
+  <!-- linker header -->
+  <g font-size="13">
+    <circle cx="500" cy="140" r="6" fill="#7d93a8"/><text x="514" y="145" fill="#9fb3c6">D13 (led)</text>
+    <circle cx="500" cy="178" r="6" fill="#7d93a8"/><text x="514" y="183" fill="#9fb3c6">3V3</text>
+    <circle cx="500" cy="216" r="6" fill="#7d93a8"/><text x="514" y="221" fill="#9fb3c6">AREF</text>
+    <circle cx="500" cy="254" r="7" fill="#2a9d8f"/><text x="514" y="259" fill="#fff" font-weight="bold">A0</text>
+    <circle cx="500" cy="292" r="7" fill="#2a9d8f"/><text x="514" y="297" fill="#fff" font-weight="bold">A1</text>
+    <circle cx="500" cy="330" r="7" fill="#2a9d8f"/><text x="514" y="335" fill="#fff" font-weight="bold">A2</text>
+    <circle cx="500" cy="368" r="7" fill="#2a9d8f"/><text x="514" y="373" fill="#fff" font-weight="bold">A3</text>
+    <circle cx="500" cy="406" r="7" fill="#2a9d8f"/><text x="514" y="411" fill="#fff" font-weight="bold">A4</text>
+    <circle cx="500" cy="444" r="7" fill="#2a9d8f"/><text x="514" y="449" fill="#fff" font-weight="bold">A5</text>
+    <circle cx="500" cy="482" r="7" fill="#2a9d8f"/><text x="514" y="487" fill="#fff" font-weight="bold">A6</text>
+    <circle cx="500" cy="520" r="7" fill="#2a9d8f"/><text x="514" y="525" fill="#fff" font-weight="bold">A7</text>
+    <circle cx="500" cy="558" r="7" fill="#d62828"/><text x="514" y="563" fill="#fff" font-weight="bold">5V</text>
+    <circle cx="500" cy="596" r="6" fill="#7d93a8"/><text x="514" y="601" fill="#9fb3c6">RST</text>
+    <circle cx="500" cy="634" r="7" fill="#333333" stroke="#fff"/><text x="514" y="639" fill="#fff" font-weight="bold">GND</text>
+    <circle cx="500" cy="672" r="6" fill="#7d93a8"/><text x="514" y="677" fill="#9fb3c6">VIN</text>
+  </g>
+
+  <!-- rechter header -->
+  <g font-size="13" text-anchor="end">
+    <circle cx="700" cy="140" r="7" fill="#3a86ff"/><text x="686" y="145" fill="#fff" font-weight="bold">D12</text>
+    <circle cx="700" cy="178" r="7" fill="#3a86ff"/><text x="686" y="183" fill="#fff" font-weight="bold">D11</text>
+    <circle cx="700" cy="216" r="7" fill="#e76f51"/><text x="686" y="221" fill="#fff" font-weight="bold">D10 ~</text>
+    <circle cx="700" cy="254" r="7" fill="#e76f51"/><text x="686" y="259" fill="#fff" font-weight="bold">D9 ~</text>
+    <circle cx="700" cy="292" r="7" fill="#e76f51"/><text x="686" y="297" fill="#fff" font-weight="bold">D8</text>
+    <circle cx="700" cy="330" r="7" fill="#2a9d8f"/><text x="686" y="335" fill="#fff" font-weight="bold">D7</text><text x="730" y="335" font-size="12" fill="#2a9d8f">→ LEDON QTR-8A</text>
+    <circle cx="700" cy="368" r="7" fill="#e76f51"/><text x="686" y="373" fill="#fff" font-weight="bold">D6 ~</text>
+    <circle cx="700" cy="406" r="7" fill="#e76f51"/><text x="686" y="411" fill="#fff" font-weight="bold">D5 ~</text>
+    <circle cx="700" cy="444" r="6" fill="#7d93a8"/><text x="686" y="449" fill="#9fb3c6">D4</text>
+    <circle cx="700" cy="482" r="6" fill="#7d93a8"/><text x="686" y="487" fill="#9fb3c6">D3 ~</text>
+    <circle cx="700" cy="520" r="7" fill="#8338ec"/><text x="686" y="525" fill="#fff" font-weight="bold">D2 (INT0)</text>
+    <circle cx="700" cy="558" r="6" fill="#7d93a8"/><text x="686" y="563" fill="#9fb3c6">GND</text>
+    <circle cx="700" cy="596" r="6" fill="#7d93a8"/><text x="686" y="601" fill="#9fb3c6">RST</text>
+    <circle cx="700" cy="634" r="6" fill="#7d93a8"/><text x="686" y="639" fill="#9fb3c6">D0 RX (USB)</text>
+    <circle cx="700" cy="672" r="6" fill="#7d93a8"/><text x="686" y="677" fill="#9fb3c6">D1 TX (USB)</text>
+  </g>
+
+  <!-- ===================== QTR-8A ===================== -->
+  <rect x="60" y="228" width="200" height="312" rx="10" fill="#e3f4f1" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="76" y="262" font-size="17" font-weight="bold" fill="#1d6f65">QTR-8A</text>
+  <text x="76" y="280" font-size="12" fill="#1d6f65">lijnsensor</text>
+  <text x="76" y="496" font-size="12" fill="#1d6f65">VCC → 5V</text>
+  <text x="76" y="512" font-size="12" fill="#1d6f65">GND → GND</text>
+  <g text-anchor="end" fill="#1d6f65" font-size="13">
+    <text x="248" y="259">sensor 1</text>
+    <text x="248" y="297">sensor 2</text>
+    <text x="248" y="335">sensor 3</text>
+    <text x="248" y="373">sensor 4</text>
+    <text x="248" y="411">sensor 5</text>
+    <text x="248" y="449">sensor 6</text>
+    <text x="248" y="487">sensor 7</text>
+    <text x="248" y="525">sensor 8</text>
+  </g>
+
+  <!-- ===================== buck converter ===================== -->
+  <rect x="60" y="546" width="200" height="154" rx="10" fill="#fbe5e5" stroke="#d62828" stroke-width="2"/>
+  <text x="76" y="600" font-size="15" font-weight="bold" fill="#9b1c1c">Buck converter</text>
+  <text x="76" y="617" font-size="12" fill="#9b1c1c">OT253-B47</text>
+  <text x="76" y="664" font-size="12" fill="#9b1c1c">IN+ ← batterij 7,4 V</text>
+  <text x="76" y="680" font-size="12" fill="#9b1c1c">(via wipschakelaar)</text>
+  <g text-anchor="end" font-size="13" font-weight="bold">
+    <text x="248" y="563" fill="#d62828">OUT+ 5 V</text>
+    <text x="248" y="639" fill="#333">GND</text>
+  </g>
+
+  <!-- ===================== BT05 ===================== -->
+  <rect x="940" y="100" width="200" height="92" rx="10" fill="#e4eeff" stroke="#3a86ff" stroke-width="2"/>
+  <g fill="#1f4f99" font-size="13">
+    <text x="952" y="145">RXD</text>
+    <text x="952" y="183">TXD</text>
+  </g>
+  <g text-anchor="end" fill="#1f4f99">
+    <text x="1128" y="128" font-size="17" font-weight="bold">BT05</text>
+    <text x="1128" y="145" font-size="12">bluetooth (BLE)</text>
+    <text x="1128" y="168" font-size="12">VCC → 5V</text>
+    <text x="1128" y="183" font-size="12">GND → GND</text>
+  </g>
+
+  <!-- ===================== DRV8833 ===================== -->
+  <rect x="940" y="200" width="200" height="224" rx="10" fill="#fdebe5" stroke="#e76f51" stroke-width="2"/>
+  <g fill="#9c3a1f" font-size="13">
+    <text x="952" y="221">BIN2</text>
+    <text x="952" y="259">BIN1</text>
+    <text x="952" y="297">STBY</text>
+    <text x="952" y="373">AIN2</text>
+    <text x="952" y="411">AIN1</text>
+  </g>
+  <g text-anchor="end" fill="#9c3a1f">
+    <text x="1128" y="259" font-size="17" font-weight="bold">DRV8833</text>
+    <text x="1128" y="276" font-size="12">motordriver</text>
+    <text x="1128" y="318" font-size="12">VM ← batterij</text>
+    <text x="1128" y="334" font-size="12">GND → GND</text>
+    <text x="1128" y="373" font-size="12">AO1/AO2 → motor A</text>
+    <text x="1128" y="389" font-size="12">BO1/BO2 → motor B</text>
+  </g>
+
+  <!-- ===================== drukknop ===================== -->
+  <rect x="940" y="486" width="200" height="80" rx="10" fill="#efe6fc" stroke="#8338ec" stroke-width="2"/>
+  <text x="952" y="525" fill="#5a1fb0" font-size="13">pin 1</text>
+  <g text-anchor="end" fill="#5a1fb0">
+    <text x="1128" y="512" font-size="17" font-weight="bold">drukknop</text>
+    <text x="1128" y="529" font-size="12">start / stop</text>
+    <text x="1128" y="554" font-size="12">pin 2 → GND</text>
+  </g>
+
+  <!-- ===================== legende ===================== -->
+  <g font-size="13" fill="#333">
+    <line x1="60" y1="765" x2="90" y2="765" stroke="#2a9d8f" stroke-width="4"/><text x="98" y="770">lijnsensor</text>
+    <line x1="200" y1="765" x2="230" y2="765" stroke="#e76f51" stroke-width="4"/><text x="238" y="770">motorsturing</text>
+    <line x1="355" y1="765" x2="385" y2="765" stroke="#3a86ff" stroke-width="4"/><text x="393" y="770">bluetooth</text>
+    <line x1="490" y1="765" x2="520" y2="765" stroke="#8338ec" stroke-width="4"/><text x="528" y="770">drukknop</text>
+    <line x1="620" y1="765" x2="650" y2="765" stroke="#d62828" stroke-width="4"/><text x="658" y="770">5 V</text>
+    <line x1="710" y1="765" x2="740" y2="765" stroke="#333333" stroke-width="4"/><text x="748" y="770">GND</text>
+    <circle cx="815" cy="765" r="6" fill="#7d93a8"/><text x="828" y="770">vrij / niet gebruikt</text>
+    <text x="990" y="770">~ = PWM-pin</text>
+  </g>
+</svg>
