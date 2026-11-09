@@ -10,3 +10,5 @@ Een proof of concept bestaat uit
 * minimale uitleg / aandachtspunten
 <br />
 De elektronische schakelingen van de proof of concepts komen bij voorkeur overeen met deze van de uiteindelijke linefollower, zodat de code zonder aanpassingen op het finale project kan draaien.
+
+**Opbouw:** de proof of concepts in deze map zijn opgebouwd met een Arduino Nano en breakout boards (BT05, DRV8833-module, QTR-8A). Ze tonen aan dat de gekozen componenten werken. Op de PCB zitten dezelfde chips (DRV8833, QRE1113, BT05), alleen met een ATmega32U4 en andere pinnen.
