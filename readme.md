@@ -38,6 +38,7 @@ kostprijs: ± € 43,30 per robot, zonder productie van de PCB (zie [bill of mat
 |[technische tekeningen](technische%20tekeningen)|elektronisch schema, PCB en mechanische tekeningen|
 |[code/proof of concepts](code/proof%20of%20concepts/readme.md)|kleine testprogramma's die aantonen dat elk onderdeel werkt (motorsturing, sensoren, draadloze communicatie, start/stop interrupt)|
 |[code/basis](code/basis/readme.md)|basisprogramma (parameters, EEPROM, start/stop, draadloze communicatie)|
+|[code/test](code/test/readme.md)|testprogramma om elk onderdeel van de PCB apart te testen|
 |[code/finaal](code/finaal/readme.md)|finaal programma van de lijnvolger|
 |[gebruiksaanwijzing](gebruiksaanwijzing/readme.md)|hoe de lijnvolger gebruiken en instellen|
 |[parcours](parcours/readme.md)|testparcours|
