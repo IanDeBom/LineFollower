@@ -1,4 +1,4 @@
-# elektronisch prototype – aansluitschema Arduino Nano
+# plan B: elektronisch prototype – Arduino Nano + breakout boards
 
 Testopstelling (breadboard) om de proof of concepts op te bouwen: welke pin van de Arduino Nano naar welke component gaat.
 De opstelling gebruikt een Arduino Nano en breakout boards (BT05, DRV8833-module, QTR-8A, buck converter).
@@ -6,6 +6,14 @@ De opstelling gebruikt een Arduino Nano en breakout boards (BT05, DRV8833-module
 > **Prototype vs. PCB**
 > Dit elektrisch prototype zou functioneel kunnen werken als lijnvolger. Toch is ervoor gekozen om een **eigen PCB** te ontwerpen, om de functionaliteit te kunnen garanderen: geen losse draden of breadboard-contacten die los kunnen trillen, korte en vaste verbindingen, en een print die meteen ook het chassis is.
 > Het prototype blijft hier staan als basis voor de [proof of concepts](../../code/proof%20of%20concepts/readme.md). Het schema en de PCB van de eigenlijke lijnvolger staan in [elektronisch](../elektronisch/readme.md).
+
+## schema plan B
+
+Volledig schema met voeding: batterij → aan/uit-schakelaar → buck converter (5 V) voor de logica, en rechtstreeks naar VM van de motordriver. De onderdelen staan in de [BOM plan B](../../bill%20of%20materials/readme.md#plan-b-arduino-nano--breakout-boards).
+
+![schema plan B](schema_planB.svg)
+
+## aansluitschema Arduino Nano
 
 ![aansluitschema Arduino Nano](pinout.svg)
 

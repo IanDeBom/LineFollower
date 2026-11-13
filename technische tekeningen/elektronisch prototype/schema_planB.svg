@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 990" width="1400" height="990" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#000">
+  <rect width="1400" height="990" fill="#ffffff"/>
+
+  <!-- ===================== kader + vakindeling ===================== -->
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="1380" height="970" stroke-width="2"/>
+    <rect x="40" y="40" width="1320" height="910" stroke-width="2"/>
+  </g>
+  <g stroke="#000" stroke-width="1">
+    <!-- kolommen 1..8 (165 px) -->
+    <line x1="205" y1="10" x2="205" y2="40"/><line x1="370" y1="10" x2="370" y2="40"/>
+    <line x1="535" y1="10" x2="535" y2="40"/><line x1="700" y1="10" x2="700" y2="40"/>
+    <line x1="865" y1="10" x2="865" y2="40"/><line x1="1030" y1="10" x2="1030" y2="40"/>
+    <line x1="1195" y1="10" x2="1195" y2="40"/>
+    <line x1="205" y1="950" x2="205" y2="980"/><line x1="370" y1="950" x2="370" y2="980"/>
+    <line x1="535" y1="950" x2="535" y2="980"/><line x1="700" y1="950" x2="700" y2="980"/>
+    <line x1="865" y1="950" x2="865" y2="980"/><line x1="1030" y1="950" x2="1030" y2="980"/>
+    <line x1="1195" y1="950" x2="1195" y2="980"/>
+    <!-- rijen A..F (151,67 px) -->
+    <line x1="10" y1="191.7" x2="40" y2="191.7"/><line x1="10" y1="343.3" x2="40" y2="343.3"/>
+    <line x1="10" y1="495" x2="40" y2="495"/><line x1="10" y1="646.7" x2="40" y2="646.7"/>
+    <line x1="10" y1="798.3" x2="40" y2="798.3"/>
+    <line x1="1360" y1="191.7" x2="1390" y2="191.7"/><line x1="1360" y1="343.3" x2="1390" y2="343.3"/>
+    <line x1="1360" y1="495" x2="1390" y2="495"/><line x1="1360" y1="646.7" x2="1390" y2="646.7"/>
+    <line x1="1360" y1="798.3" x2="1390" y2="798.3"/>
+  </g>
+  <g font-size="13" text-anchor="middle">
+    <text x="122" y="30">1</text><text x="287" y="30">2</text><text x="452" y="30">3</text><text x="617" y="30">4</text>
+    <text x="782" y="30">5</text><text x="947" y="30">6</text><text x="1112" y="30">7</text><text x="1277" y="30">8</text>
+    <text x="122" y="970">1</text><text x="287" y="970">2</text><text x="452" y="970">3</text><text x="617" y="970">4</text>
+    <text x="782" y="970">5</text><text x="947" y="970">6</text><text x="1112" y="970">7</text><text x="1277" y="970">8</text>
+    <text x="25" y="121">A</text><text x="25" y="272">B</text><text x="25" y="424">C</text>
+    <text x="25" y="576">D</text><text x="25" y="727">E</text><text x="25" y="879">F</text>
+    <text x="1375" y="121">A</text><text x="1375" y="272">B</text><text x="1375" y="424">C</text>
+    <text x="1375" y="576">D</text><text x="1375" y="727">E</text><text x="1375" y="879">F</text>
+  </g>
+
+  <!-- ===================== potentiaalrails ===================== -->
+  <g stroke="#000" stroke-width="2">
+    <line x1="100" y1="100" x2="1300" y2="100"/>
+    <line x1="170" y1="140" x2="1300" y2="140"/>
+    <line x1="100" y1="780" x2="1300" y2="780"/>
+  </g>
+  <g font-weight="bold" font-size="13">
+    <text x="48" y="104">VBAT</text>
+    <text x="138" y="144">+5V</text>
+    <text x="52" y="784">GND</text>
+    <text x="1306" y="104">VBAT</text>
+    <text x="1306" y="144">+5V</text>
+    <text x="1306" y="784">GND</text>
+  </g>
+
+  <!-- ===================== -G1 batterij + -S1 schakelaar ===================== -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="100" y1="100" x2="100" y2="190"/>
+    <line x1="100" y1="250" x2="118" y2="196"/>
+    <line x1="92" y1="190" x2="108" y2="190"/>
+    <line x1="100" y1="250" x2="100" y2="330"/>
+    <line x1="80" y1="330" x2="120" y2="330"/>
+    <line x1="90" y1="342" x2="110" y2="342" stroke-width="5"/>
+    <line x1="100" y1="342" x2="100" y2="360"/>
+    <line x1="80" y1="360" x2="120" y2="360"/>
+    <line x1="90" y1="372" x2="110" y2="372" stroke-width="5"/>
+    <line x1="100" y1="372" x2="100" y2="780"/>
+  </g>
+  <text x="124" y="214" font-weight="bold">-S1</text>
+  <text x="124" y="230" font-size="12">aan/uit</text>
+  <text x="84" y="326" font-size="12">+</text>
+  <text x="124" y="350" font-weight="bold">-G1</text>
+  <text x="124" y="366" font-size="12">2S Li-Ion</text>
+  <text x="124" y="380" font-size="12">7,4 V</text>
+
+  <!-- ===================== -U3 buck converter ===================== -->
+  <rect x="200" y="180" width="100" height="100" fill="none" stroke="#000" stroke-width="2"/>
+  <g stroke="#000" stroke-width="2">
+    <line x1="220" y1="100" x2="220" y2="180"/>
+    <line x1="280" y1="140" x2="280" y2="180"/>
+    <line x1="250" y1="280" x2="250" y2="780"/>
+  </g>
+  <g font-size="11">
+    <text x="222" y="194">IN+</text>
+    <text x="278" y="194" text-anchor="end">VO+</text>
+    <text x="250" y="274" text-anchor="middle">GND</text>
+  </g>
+  <text x="250" y="226" text-anchor="middle" font-weight="bold">-U3</text>
+  <text x="250" y="242" text-anchor="middle" font-size="11">buck 5 V</text>
+  <text x="250" y="256" text-anchor="middle" font-size="10" fill="#555">OT253-B47</text>
+
+  <!-- ===================== -U5 QTR-8A ===================== -->
+  <rect x="320" y="330" width="120" height="410" fill="none" stroke="#000" stroke-width="2"/>
+  <g stroke="#000" stroke-width="2">
+    <line x1="380" y1="140" x2="380" y2="330"/>
+    <line x1="380" y1="740" x2="380" y2="780"/>
+  </g>
+  <text x="380" y="346" text-anchor="middle" font-size="11">VCC</text>
+  <text x="380" y="734" text-anchor="middle" font-size="11">GND</text>
+  <text x="350" y="520" text-anchor="middle" font-weight="bold" transform="rotate(-90 350 520)">-U5 QTR-8A</text>
+  <g stroke="#000" stroke-width="2">
+    <line x1="440" y1="360" x2="600" y2="360"/>
+    <line x1="440" y1="400" x2="600" y2="400"/>
+    <line x1="440" y1="440" x2="600" y2="440"/>
+    <line x1="440" y1="480" x2="600" y2="480"/>
+    <line x1="440" y1="520" x2="600" y2="520"/>
+    <line x1="440" y1="560" x2="600" y2="560"/>
+    <line x1="440" y1="600" x2="600" y2="600"/>
+    <line x1="440" y1="640" x2="600" y2="640"/>
+    <line x1="440" y1="690" x2="600" y2="690"/>
+  </g>
+  <g font-size="11" text-anchor="end">
+    <text x="432" y="364">1</text>
+    <text x="432" y="404">2</text>
+    <text x="432" y="444">3</text>
+    <text x="432" y="484">4</text>
+    <text x="432" y="524">5</text>
+    <text x="432" y="564">6</text>
+    <text x="432" y="604">7</text>
+    <text x="432" y="644">8</text>
+    <text x="432" y="694">LEDON</text>
+  </g>
+  <g font-size="11">
+    <text x="608" y="364">A0</text>
+    <text x="608" y="404">A1</text>
+    <text x="608" y="444">A2</text>
+    <text x="608" y="484">A3</text>
+    <text x="608" y="524">A4</text>
+    <text x="608" y="564">A5</text>
+    <text x="608" y="604">A6</text>
+    <text x="608" y="644">A7</text>
+    <text x="608" y="694">D7</text>
+  </g>
+  <text x="520" y="352" text-anchor="middle" font-size="11" fill="#555">sensor 1 (links)</text>
+  <text x="520" y="682" text-anchor="middle" font-size="11" fill="#555">IR-leds aan/uit</text>
+
+  <!-- ===================== -U1 Arduino Nano ===================== -->
+  <rect x="600" y="220" width="200" height="520" fill="none" stroke="#000" stroke-width="2"/>
+  <g stroke="#000" stroke-width="2">
+    <line x1="700" y1="140" x2="700" y2="220"/>
+    <line x1="700" y1="740" x2="700" y2="780"/>
+  </g>
+  <text x="708" y="236" font-size="11">5V</text>
+  <text x="708" y="734" font-size="11">GND</text>
+  <text x="690" y="500" text-anchor="middle" font-weight="bold" font-size="16">-U1</text>
+  <text x="690" y="518" text-anchor="middle">Arduino Nano</text>
+  <text x="690" y="534" text-anchor="middle" font-size="10" fill="#555">(ingebouwde power-led)</text>
+  <g font-size="11" text-anchor="end">
+    <text x="792" y="264">D11</text>
+    <text x="792" y="304">D12</text>
+    <text x="792" y="424">D5 ~</text>
+    <text x="792" y="464">D6 ~</text>
+    <text x="792" y="504">D9 ~</text>
+    <text x="792" y="544">D10 ~</text>
+    <text x="792" y="584">D8</text>
+    <text x="792" y="684">D2</text>
+  </g>
+
+  <!-- ===================== -U2 BT05 + spanningsdeler ===================== -->
+  <rect x="980" y="210" width="110" height="120" fill="none" stroke="#000" stroke-width="2"/>
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="800" y1="260" x2="980" y2="260"/>
+    <line x1="800" y1="300" x2="840" y2="300"/>
+    <line x1="900" y1="300" x2="980" y2="300"/>
+    <line x1="930" y1="300" x2="930" y2="320"/>
+    <line x1="930" y1="360" x2="930" y2="370"/>
+    <line x1="918" y1="370" x2="942" y2="370"/>
+    <line x1="922" y1="375" x2="938" y2="375"/>
+    <line x1="926" y1="380" x2="934" y2="380"/>
+    <line x1="1040" y1="140" x2="1040" y2="210"/>
+    <line x1="1040" y1="330" x2="1040" y2="345"/>
+    <line x1="1028" y1="345" x2="1052" y2="345"/>
+    <line x1="1032" y1="350" x2="1048" y2="350"/>
+    <line x1="1036" y1="355" x2="1044" y2="355"/>
+  </g>
+  <rect x="840" y="290" width="60" height="20" fill="#fff" stroke="#000" stroke-width="2"/>
+  <rect x="920" y="320" width="20" height="40" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="930" cy="300" r="4" fill="#000"/>
+  <text x="870" y="284" text-anchor="middle" font-size="11" font-weight="bold">-R1 1 kΩ</text>
+  <text x="946" y="344" font-size="11" font-weight="bold">-R2</text>
+  <text x="946" y="358" font-size="11">2 kΩ</text>
+  <g font-size="11">
+    <text x="986" y="264">TXD</text>
+    <text x="986" y="304">RXD</text>
+    <text x="1048" y="226">VCC</text>
+    <text x="1048" y="326">GND</text>
+  </g>
+  <text x="1035" y="276" text-anchor="middle" font-weight="bold">-U2</text>
+  <text x="1035" y="290" text-anchor="middle" font-size="11">BT05</text>
+
+  <!-- ===================== -U4 DRV8833 module + motoren ===================== -->
+  <rect x="980" y="400" width="140" height="220" fill="none" stroke="#000" stroke-width="2"/>
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="800" y1="420" x2="980" y2="420"/>
+    <line x1="800" y1="460" x2="980" y2="460"/>
+    <line x1="800" y1="500" x2="980" y2="500"/>
+    <line x1="800" y1="540" x2="980" y2="540"/>
+    <line x1="800" y1="580" x2="980" y2="580"/>
+    <line x1="1105" y1="100" x2="1105" y2="400"/>
+    <line x1="1050" y1="620" x2="1050" y2="780"/>
+    <polyline points="1120,430 1160,430 1160,410 1230,410 1230,432"/>
+    <polyline points="1120,470 1160,470 1160,490 1230,490 1230,468"/>
+    <polyline points="1120,530 1170,530 1170,510 1230,510 1230,532"/>
+    <polyline points="1120,570 1170,570 1170,590 1230,590 1230,568"/>
+    <circle cx="1230" cy="450" r="18"/>
+    <circle cx="1230" cy="550" r="18"/>
+  </g>
+  <g font-size="11">
+    <text x="986" y="424">AIN1</text>
+    <text x="986" y="464">AIN2</text>
+    <text x="986" y="504">BIN1</text>
+    <text x="986" y="544">BIN2</text>
+    <text x="986" y="584">STBY</text>
+    <text x="1100" y="416" text-anchor="end">VM</text>
+    <text x="1058" y="614">GND</text>
+    <text x="1114" y="434" text-anchor="end">AO1</text>
+    <text x="1114" y="474" text-anchor="end">AO2</text>
+    <text x="1114" y="534" text-anchor="end">BO1</text>
+    <text x="1114" y="574" text-anchor="end">BO2</text>
+  </g>
+  <text x="1050" y="510" text-anchor="middle" font-weight="bold" transform="rotate(-90 1050 510)">-U4 DRV8833</text>
+  <text x="1230" y="455" text-anchor="middle" font-weight="bold">M</text>
+  <text x="1230" y="555" text-anchor="middle" font-weight="bold">M</text>
+  <text x="1256" y="446" font-size="12" font-weight="bold">-M1</text>
+  <text x="1256" y="460" font-size="11">N20</text>
+  <text x="1256" y="546" font-size="12" font-weight="bold">-M2</text>
+  <text x="1256" y="560" font-size="11">N20</text>
+
+  <!-- ===================== -S2 drukknop ===================== -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="800" y1="680" x2="880" y2="680"/>
+    <line x1="880" y1="680" x2="880" y2="700"/>
+    <line x1="872" y1="700" x2="888" y2="700"/>
+    <line x1="880" y1="750" x2="862" y2="706"/>
+    <line x1="880" y1="750" x2="880" y2="780"/>
+  </g>
+  <g stroke="#000" stroke-width="1.5" fill="none">
+    <line x1="868" y1="728" x2="830" y2="728" stroke-dasharray="5 3"/>
+    <polyline points="838,716 830,716 830,740 838,740"/>
+  </g>
+  <text x="896" y="722" font-weight="bold">-S2</text>
+  <text x="896" y="738" font-size="12">start/stop</text>
+  <text x="840" y="672" text-anchor="middle" font-size="11" fill="#555">INT0</text>
+
+  <!-- verbindingspunten -->
+  <g fill="#000">
+    <circle cx="100" cy="100" r="4"/><circle cx="220" cy="100" r="4"/><circle cx="1105" cy="100" r="4"/>
+    <circle cx="280" cy="140" r="4"/><circle cx="380" cy="140" r="4"/><circle cx="700" cy="140" r="4"/><circle cx="1040" cy="140" r="4"/>
+    <circle cx="100" cy="780" r="4"/><circle cx="250" cy="780" r="4"/><circle cx="380" cy="780" r="4"/><circle cx="700" cy="780" r="4"/><circle cx="880" cy="780" r="4"/><circle cx="1050" cy="780" r="4"/>
+  </g>
+
+  <!-- ===================== opmerkingen ===================== -->
+  <g font-size="12">
+    <text x="60" y="806" font-weight="bold" font-size="13">Opmerkingen</text>
+    <text x="60" y="826">1. -U3 levert 5 V aan de 5V-pin van -U1 (niet via VIN). Eerst -U3 instellen op 5 V met een multimeter.</text>
+    <text x="60" y="844">2. VM van -U4 komt rechtstreeks van de batterij (na -S1): motoren 6 V, snelheid beperken met PWM.</text>
+    <text x="60" y="862">3. -R1 / -R2: spanningsdeler 5 V naar 3,3 V voor RXD van -U2.</text>
+    <text x="60" y="880">4. Power-led: ingebouwde led van -U1. Glijder als derde steunpunt (mechanisch).</text>
+    <text x="60" y="898">5. Pinverdeling = proof of concepts (code/proof of concepts).</text>
+  </g>
+
+  <!-- ===================== titelblok ===================== -->
+  <g fill="none" stroke="#000" stroke-width="2">
+    <rect x="900" y="790" width="460" height="160"/>
+  </g>
+  <g stroke="#000" stroke-width="1">
+    <line x1="900" y1="830" x2="1360" y2="830"/>
+    <line x1="900" y1="870" x2="1360" y2="870"/>
+    <line x1="900" y1="910" x2="1360" y2="910"/>
+    <line x1="1130" y1="870" x2="1130" y2="950"/>
+    <line x1="1250" y1="910" x2="1250" y2="950"/>
+  </g>
+  <g font-size="10" fill="#555">
+    <text x="906" y="802">project</text>
+    <text x="906" y="842">tekening</text>
+    <text x="906" y="882">getekend</text>
+    <text x="1136" y="882">datum</text>
+    <text x="906" y="922">bestand</text>
+    <text x="1136" y="922">revisie</text>
+    <text x="1256" y="922">blad</text>
+  </g>
+  <g>
+    <text x="906" y="823" font-size="17" font-weight="bold">LineFollower</text>
+    <text x="906" y="863" font-size="15" font-weight="bold">Plan B – Arduino Nano + breakout boards</text>
+    <text x="906" y="902" font-size="14">debomian</text>
+    <text x="1136" y="902" font-size="14">13-11-2026</text>
+    <text x="906" y="942" font-size="13">schema_planB.svg</text>
+    <text x="1136" y="942" font-size="14">A</text>
+    <text x="1256" y="942" font-size="14">1 / 1</text>
+  </g>
+</svg>
