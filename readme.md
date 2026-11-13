@@ -27,7 +27,7 @@ weight: nog te bepalen
 
 speed: doel ≥ 1 m/s (theoretisch ± 1,8 m/s onbelast met wielen van 28,6 mm)
 
-kostprijs: ± € 43,30 per robot, zonder productie van de PCB (zie [bill of materials](bill%20of%20materials/readme.md))
+kostprijs: ± € 37,62 per robot, zonder productie van de PCB (zie [bill of materials](bill%20of%20materials/readme.md))
 
 ## inhoud van deze repository
 
