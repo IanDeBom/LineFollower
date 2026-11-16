@@ -39,11 +39,10 @@ monteer de glijder
 ### stap 5
 sluit de batterij aan  
 
-1. Soldeer een vrouwelijke JST-stekker aan **TP1** (V+, rood) en **TP2** (V−, zwart).
-2. Zet SW1 op uit.
+1. Zet SW1 op uit.
+2. Soldeer de draden van de batterij rechtstreeks aan **TP1** (V+, rood) en **TP2** (V−, zwart).
 3. Bevestig de batterij bovenop de print tussen de motoren (dubbelzijdige tape of een bandje, geen hotglue).
-4. Steek de stekker van de batterij in.
-5. Plaats de BT05 in header U1.
+4. Plaats de BT05 in header U1.
 
 ### stap 6
 brand de bootloader (eenmalig)  

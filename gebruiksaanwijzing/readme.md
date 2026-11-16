@@ -1,9 +1,9 @@
 # Gebruiksaanwijzing
 
 ### opladen / vervangen batterijen
-* De robot werkt op een **2S Li-Ion batterij van 7,4 V** (2000 mAh) met JST-stekker.
-* **Opladen:** zet de robot uit met de aan/uit-schakelaar (SW1, achteraan), trek de JST-stekker van de batterij los en sluit hem aan op de meegeleverde **USB-oplaadkabel**.
-* **Vervangen:** stekker lostrekken, batterij losmaken (geen hotglue, enkel tape of bandje) en een nieuwe 2S-batterij aansluiten. Let op de polariteit: rood = + (TP1, V+), zwart = − (TP2, V−).
+* De robot werkt op een **2S Li-Ion batterij van 7,4 V** (2000 mAh). De draden van de batterij zijn rechtstreeks gesoldeerd aan TP1 (V+, rood) en TP2 (V−, zwart).
+* **Opladen:** zet de robot uit met de aan/uit-schakelaar (SW1, achteraan) en laad de batterij met de meegeleverde **USB-oplaadkabel**.
+* **Vervangen:** SW1 uit, de draden lossolderen van TP1 en TP2, batterij losmaken (geen hotglue, enkel tape of bandje) en de nieuwe 2S-batterij aansolderen. Let op de polariteit: rood = + (TP1, V+), zwart = − (TP2, V−).
 * Volgeladen is de batterij 8,4 V. Onder **6,2 V** stopt de robot vanzelf (`gestopt: batterij leeg`): dan opladen.
 * De batterijspanning zie je met het commando `debug`.
 
